@@ -1,124 +1,87 @@
-<a href="https://freecad.org"><img src="https://www.freecad.org/svg/icon-freecad.svg" height="100px" width="100px"></a>
-
-### Your own 3D parametric modeler
-
-[Website](https://www.freecad.org) • 
-[Documentation](https://wiki.freecad.org) •
-[Forum](https://forum.freecad.org/) •
-[Bug tracker](https://github.com/FreeCAD/FreeCAD/issues) •
-[Git repository](https://github.com/FreeCAD/FreeCAD) •
-[Blog](https://blog.freecad.org)
-
-
-[![Release](https://img.shields.io/github/release/freecad/freecad.svg)](https://github.com/freecad/freecad/releases/latest) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/freecad/localized.svg)](https://crowdin.com/project/freecad) [![Liberapay](https://img.shields.io/liberapay/receives/FreeCAD.svg?logo=liberapay)](https://liberapay.com/FreeCAD)
-
-<img src="https://user-images.githubusercontent.com/1828501/174066870-1692005b-f8d7-43fb-a289-6d2f07f73d7f.png" width="800"/>
-
-Overview
---------
-
-* **Freedom to build what you want**  FreeCAD is an open-source parametric 3D 
-modeler made primarily to design real-life objects of any size. 
-Parametric modeling allows you to easily modify your design by going back into 
-your model history to change its parameters. 
-
-* **Create 3D from 2D and back** FreeCAD lets you to sketch geometry constrained
- 2D shapes and use them as a base to build other objects. 
- It contains many components to adjust dimensions or extract design details from 
- 3D models to create high quality production-ready drawings.
-
-* **Designed for your needs** FreeCAD is designed to fit a wide range of uses
-including product design, mechanical engineering and architecture,
-whether you are a hobbyist, programmer, experienced CAD user, student or teacher.
-
-* **Cross platform** FreeCAD runs on Windows, macOS and Linux operating systems.
-
-* **Underlying technology**
-    * **OpenCASCADE** A powerful geometry kernel, the most important component of FreeCAD
-    * **Coin3D library** Open Inventor-compliant 3D scene representation model
-    * **Python** FreeCAD offers a broad Python API
-    * **Qt** Graphical user interface built with Qt
-
-
-Installing
-----------
-
-Precompiled packages for stable releases are available for Windows, macOS and Linux on the
-[Releases page](https://github.com/FreeCAD/FreeCAD/releases).
-
-On most Linux distributions, FreeCAD is also directly installable from the 
-software center application.
-
-For development releases check the [weekly-builds page](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
-
-Other options are described at the [wiki Download page](https://wiki.freecad.org/Download).
-
-Compiling
----------
-
-Compiling FreeCAD requires installation of several libraries and their 
-development files such as OCCT (Open Cascade), Coin and Qt, listed in the 
-pages below. Once this is done, FreeCAD can be compiled with 
-CMake. On Windows, these libraries are bundled and offered by the 
-FreeCAD team in a convenient package. On Linux, they are usually found 
-in your distribution's repositories, and on macOS and other platforms, 
-you will usually have to compile them yourself.
-
-The pages below contain up-to-date build instructions:
-
-- [Linux](https://wiki.freecad.org/Compile_on_Linux)
-- [Windows](https://wiki.freecad.org/Compile_on_Windows)
-- [macOS](https://wiki.freecad.org/Compile_on_MacOS)
-- [Cygwin](https://wiki.freecad.org/Compile_on_Cygwin)
-- [MinGW](https://wiki.freecad.org/Compile_on_MinGW)
-
-
-Reporting Issues
----------
-
-To report an issue please:
-
-- First post to forum to verify the issue; 
-- Link forum thread to bug tracker ticket and vice-a-versa; 
-- Use the most updated stable or development versions of FreeCAD; 
-- Post version info from eg. `Help > About FreeCAD > Copy to clipboard`; 
-- Post a Step-By-Step explanation on how to recreate the issue; 
-- Upload an example file to demonstrate problem. 
-
-For more detail see:
-
-- [Bug Tracker](https://github.com/FreeCAD/FreeCAD/issues)
-- [Reporting Issues and Requesting Features](https://github.com/FreeCAD/FreeCAD/issues/new/choose)
-- [Contributing](https://github.com/FreeCAD/FreeCAD/blob/master/CONTRIBUTING.md)
-- [Help Forum](https://forum.freecad.org/viewforum.php?f=3)
-- [Developers Handbook](https://freecad.github.io/DevelopersHandbook/)
-
-The [FPA](https://fpa.freecad.org) offers developers the opportunity
-to apply for a grant to work on projects of their choosing. Check
-[jobs and funding](https://blog.freecad.org/jobs/) to know more.
-
-
-Usage & Getting help
---------------------
-
-The FreeCAD wiki contains documentation on 
-general FreeCAD usage, Python scripting, and development. These 
-pages might help you get started:
-
-- [Getting started](https://wiki.freecad.org/Getting_started)
-- [Features list](https://wiki.freecad.org/Feature_list)
-- [Frequent questions](https://wiki.freecad.org/FAQ/en)
-- [Workbenches](https://wiki.freecad.org/Workbenches)
-- [Scripting](https://wiki.freecad.org/Power_users_hub)
-- [Development](https://wiki.freecad.org/Developer_hub)
-
-The [FreeCAD forum](https://forum.freecad.org) is also a great place
-to find help and solve specific problems you might encounter when
-learning to use FreeCAD.
-
-
-<p>This project receives generous infrastructure support from
-  <a href="https://www.digitalocean.com/">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="91px">
-  </a> and <a href="https://www.kipro-pcb.com/">KiCad Services Corp.</a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a href="https://freecad.org" rel="nofollow"><img src="https://camo.githubusercontent.com/b180b55e27ec255068681d9910fdd17c253cb1e4b6fc86ed2abd75a9d9428643/68747470733a2f2f7777772e667265656361642e6f72672f7376672f69636f6e2d667265656361642e737667" height="100px" width="100px" data-canonical-src="https://www.freecad.org/svg/icon-freecad.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您自己的 3D 参数化建模器</font></font></h3><a id="user-content-your-own-3d-parametric-modeler" class="anchor" aria-label="永久链接：您自己的 3D 参数化建模器" href="#your-own-3d-parametric-modeler"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://www.freecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://wiki.freecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://forum.freecad.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+ </font></font><a href="https://github.com/FreeCAD/FreeCAD/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bug 跟踪器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+ </font></font><a href="https://github.com/FreeCAD/FreeCAD"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Git 存储库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://blog.freecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></p>
+<p dir="auto"><a href="https://github.com/freecad/freecad/releases/latest"><img src="https://camo.githubusercontent.com/3671730a9bf08b9e341eda1d021ca44da9bf99844083343c6ded1d24be5edbd2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f667265656361642f667265656361642e737667" alt="发布" data-canonical-src="https://img.shields.io/github/release/freecad/freecad.svg" style="max-width: 100%;"></a> <a href="https://crowdin.com/project/freecad" rel="nofollow"><img src="https://camo.githubusercontent.com/ebfb03c53e2f4d38cca0a44ce4d2001b6dc3cc9adba0ed582991b6b8806ee076/68747470733a2f2f64333232637174353834626f346f2e636c6f756466726f6e742e6e65742f667265656361642f6c6f63616c697a65642e737667" alt="克罗丁" data-canonical-src="https://d322cqt584bo4o.cloudfront.net/freecad/localized.svg" style="max-width: 100%;"></a> <a href="https://liberapay.com/FreeCAD" rel="nofollow"><img src="https://camo.githubusercontent.com/fe2fedd69f998561a7927c93da25a45f24711155c8a59489b77964ade7523afd/68747470733a2f2f696d672e736869656c64732e696f2f6c69626572617061792f72656365697665732f467265654341442e7376673f6c6f676f3d6c6962657261706179" alt="自由支付" data-canonical-src="https://img.shields.io/liberapay/receives/FreeCAD.svg?logo=liberapay" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/1828501/174066870-1692005b-f8d7-43fb-a289-6d2f07f73d7f.png"><img src="https://user-images.githubusercontent.com/1828501/174066870-1692005b-f8d7-43fb-a289-6d2f07f73d7f.png" width="800" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></h2><a id="user-content-overview" class="anchor" aria-label="永久链接：概述" href="#overview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自由构建您想要的东西</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  FreeCAD 是一款开源参数化 3D 建模器，主要用于设计任何尺寸的现实物体。</font><font style="vertical-align: inherit;">参数化建模允许您通过返回模型历史记录来更改其参数来轻松修改您的设计。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 2D 创建 3D 并返回</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD 允许您绘制受几何约束的 2D 形状的草图，并将它们用作构建其他对象的基础。</font><font style="vertical-align: inherit;">它包含许多组件，用于调整尺寸或从 3D 模型中提取设计细节，以创建高质量的生产就绪图纸。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">专为满足您的需求而设计</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD 旨在满足广泛的用途，包括产品设计、机械工程和建筑，无论您是业余爱好者、程序员、经验丰富的 CAD 用户、学生还是教师。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨平台</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD 可在 Windows、macOS 和 Linux 操作系统上运行。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">底层技术</font></font></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenCASCADE</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强大的几何内核，FreeCAD最重要的组件</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Coin3D 库</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Open Inventor 兼容的 3D 场景表示模型</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> FreeCAD 提供广泛的 Python API</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qt</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Qt 构建的图形用户界面</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装中</font></font></h2><a id="user-content-installing" class="anchor" aria-label="永久链接：安装" href="#installing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/FreeCAD/FreeCAD/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上提供了适用于 Windows、macOS 和 Linux 的稳定版本的预编译包
+</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在大多数 Linux 发行版上，FreeCAD 也可以直接从软件中心应用程序安装。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于开发版本，请检查</font></font><a href="https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每周构建页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://wiki.freecad.org/Download" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他选项在wiki 下载页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中有描述</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译</font></font></h2><a id="user-content-compiling" class="anchor" aria-label="永久链接：编译" href="#compiling"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译 FreeCAD 需要安装多个库及其开发文件，例如 OCCT (Open Cascade)、Coin 和 Qt，如下页所列。</font><font style="vertical-align: inherit;">完成此操作后，可以使用 CMake 编译 FreeCAD。</font><font style="vertical-align: inherit;">在 Windows 上，这些库由 FreeCAD 团队捆绑并提供在一个方便的包中。</font><font style="vertical-align: inherit;">在 Linux 上，它们通常可以在您的发行版存储库中找到，而在 macOS 和其他平台上，您通常必须自己编译它们。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下页面包含最新的构建说明：</font></font></p>
+<ul dir="auto">
+<li><a href="https://wiki.freecad.org/Compile_on_Linux" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Compile_on_Windows" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视窗</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Compile_on_MacOS" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">苹果系统</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Compile_on_Cygwin" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">西格文</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Compile_on_MinGW" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">明GW</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告问题</font></font></h2><a id="user-content-reporting-issues" class="anchor" aria-label="永久链接：报告问题" href="#reporting-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要报告问题，请：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先到论坛发帖验证问题；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将论坛主题链接到错误跟踪器票证，反之亦然；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用最新的 FreeCAD 稳定版或开发版；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从例如发布版本信息。</font></font><code>Help &gt; About FreeCAD &gt; Copy to clipboard</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">;</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布有关如何重现问题的分步说明；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上传示例文件来演示问题。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欲了解更多详细信息，请参阅：</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/FreeCAD/FreeCAD/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误追踪器</font></font></a></li>
+<li><a href="https://github.com/FreeCAD/FreeCAD/issues/new/choose"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告问题和请求功能</font></font></a></li>
+<li><a href="https://github.com/FreeCAD/FreeCAD/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></a></li>
+<li><a href="https://forum.freecad.org/viewforum.php?f=3" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助论坛</font></font></a></li>
+<li><a href="https://freecad.github.io/DevelopersHandbook/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者手册</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FPA为开发商提供</font></font><a href="https://fpa.freecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申请补助金以开展他们选择的项目的机会。</font><font style="vertical-align: inherit;">检查
+</font></font><a href="https://blog.freecad.org/jobs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作和资金</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解更多信息。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用和获取帮助</font></font></h2><a id="user-content-usage--getting-help" class="anchor" aria-label="永久链接：使用和获取帮助" href="#usage--getting-help"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD wiki 包含有关 FreeCAD 一般用法、Python 脚本和开发的文档。</font><font style="vertical-align: inherit;">这些页面可能会帮助您入门：</font></font></p>
+<ul dir="auto">
+<li><a href="https://wiki.freecad.org/Getting_started" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Feature_list" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能列表</font></font></a></li>
+<li><a href="https://wiki.freecad.org/FAQ/en" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Workbenches" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作台</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Power_users_hub" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本编写</font></font></a></li>
+<li><a href="https://wiki.freecad.org/Developer_hub" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD</font></font><a href="https://forum.freecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也是寻求帮助和解决学习使用 FreeCAD 时可能遇到的特定问题的好地方。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目获得了KiCad </font><a href="https://www.kipro-pcb.com/" rel="nofollow"><font style="vertical-align: inherit;">Services Corp. 的</font></a><font style="vertical-align: inherit;">慷慨基础设施支持。
+  </font></font><a href="https://www.digitalocean.com/" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/434c125d7282a0d9fcf8acf0ddd944392e55f0dea60955caa11ddade067b8e56/68747470733a2f2f6f70656e736f757263652e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f6174747269627574696f6e2f6173736574732f5356472f444f5f4c6f676f5f686f72697a6f6e74616c5f626c75652e737667" width="91px" data-canonical-src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" style="max-width: 100%;">
+  </a><font style="vertical-align: inherit;"></font><a href="https://www.kipro-pcb.com/" rel="nofollow"><font style="vertical-align: inherit;"></font></a>
 </p>
+</article></div>
